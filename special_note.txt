@@ -1,0 +1,3 @@
+﻿Have you ever wondered about building your own virtual assistant? Off course who might have not, specifically something like Jarvis. Now you can too with Python and other languages with their rich libraries at your disposal.Here is my small glimpse of what can be done in Python. I have made my assistant(Sara) with very limited features to sart off with. Features would be kept on adding and your help would be appreciated always as it is licensed under GPLv2. Also you can tinker around with it to make your own assistant styled according to you as it is under GPLv2.
+Hope you like it.
+It is available at https://github.com/SubrataSarkar32/sara
