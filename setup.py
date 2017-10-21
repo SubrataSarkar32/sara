@@ -15,7 +15,7 @@ try:
           packages=['sara'],
           package_data = {'pyhinengphonetic': ['*.md', '*.jpg']},
           include_package_data = True,
-          install_requires=['PIL','psutil','speech_recognition'],
+          install_requires=['PIL','psutil','speech_recognition','pyaudio'],
           license='GNU GPL v2 or later',
           zip_safe=True,
           classifiers=[
