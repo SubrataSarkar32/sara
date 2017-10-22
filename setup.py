@@ -1,5 +1,8 @@
 #!/usr/bin/env python
-
+#set python environment variable then open cmd and type these following commands
+#after opening the folder containing these files
+#python setup.py build
+#python setup.py install
 try:
     from setuptools import setup
 
@@ -13,7 +16,7 @@ try:
           author_email='subrotosarkar32@gmail.com',
           url='https://github.com/SubrataSarkar32/sara',
           packages=['sara'],
-          package_data = {'pyhinengphonetic': ['*.md', '*.jpg']},
+          package_data = {'sara': ['*.md', '*.jpg']},
           include_package_data = True,
           install_requires=['PIL','psutil','speech_recognition','pyaudio','pyttsx'],
           license='GNU GPL v2 or later',
