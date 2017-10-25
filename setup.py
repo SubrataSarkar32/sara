@@ -6,7 +6,7 @@
 try:
     from setuptools import setup
 
-    from pyhinengphonetic import __version__
+ 
 
     setup(name='sara',
           version='1.0',
