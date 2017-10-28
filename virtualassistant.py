@@ -172,7 +172,7 @@ def send_to_ai(event=None):
                                         print(dp.device, dp.fstype, dp.opts)
                                         for root, dirs, files in os.walk(dp.device):
                                           for name in files:
-                                              if filefile in name:
+                                              if findfile in name:
                                                   filepath=os.path.abspath(os.path.join(root, name))
                                                   filelst+=[filepath]
                                                   number+=1
