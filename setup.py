@@ -18,7 +18,7 @@ try:
           packages=['sara'],
           package_data = {'sara': ['*.md', '*.jpg']},
           include_package_data = True,
-          install_requires=['PIL','psutil','speech_recognition','pyaudio','pyttsx'],
+          install_requires=['PIL','psutil','speech_recognition','pyaudio','pyttsx','monotonic'],
           license='GNU GPL v2 or later',
           zip_safe=True,
           classifiers=[
